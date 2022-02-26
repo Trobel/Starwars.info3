@@ -1,0 +1,65 @@
+
+    
+ 
+  
+
+body{
+font-family:Monospace ;
+position:center;
+  
+background-image: url(star-wars-wallpaper.jpg);
+background-size: cover;
+height:750px;
+
+   
+
+
+}
+
+.note{font-size: 31px;
+    text-align: center;
+    font-weight: bold ;
+  color: rgb(248, 248, 248);
+  background-color: rgba(0, 0, 0, 0.52);
+}
+
+.note1{font-size: 24px;
+    text-align: center;
+    font-weight: bold ;
+  color: rgb(248, 248, 248);
+  background-color: rgba(0, 0, 0, 0.52);
+
+}
+
+
+.note2{font-size:25px ;
+    color:rgb(228, 88, 88)}
+  
+.note3{font-size:25px ;
+        color:rgb(228, 88, 88)}
+.home{font-size: 160px;
+    text-align: center;
+    font-weight: bold ;
+    color: rgb(252, 247, 247);
+    background-color: rgba(0, 0, 0, 0.52);}
+button.btn{
+    font-size:70px;
+  
+
+    font-weight:bold;
+    font-family:Monospace ;
+    color: rgb(248, 248, 248);
+    margin: 0;
+    position: absolute;
+    left: 25%;
+}
+
+.note1:hover {background-color: rgba(1, 14, 13, 0.075);
+    transform:translateY(-16px);
+}
+.note:hover {background-color: rgba(1, 14, 13, 0.075);
+    transform:translateX(16px);
+}
+.home:hover {background-color: rgba(1, 14, 13, 0.075);
+    transform:translateY(16px);
+}

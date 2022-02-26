@@ -1,0 +1,103 @@
+
+  body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header{background-image:url(swsky.jpg) ;
+  min-height: auto;
+  max-width: 1480px;
+  margin: 0 auto;
+
+}
+
+h1.display-5{font-size: 45px;
+    text-align: center;
+    color: rgb(3, 0, 0);
+  }
+  .display-4 { font-size: 160px;
+    text-align: left;
+    right: 50px;;
+    font-weight: bold ;
+    color: rgb(252, 249, 249);}
+body{font-family:Monospace ;
+  min-height: auto;
+  max-width: 1400px;
+
+  background-color: rgba(0, 0, 0, 0.541);
+ margin: 0 auto;
+
+} 
+ 
+
+div.list-group { font-family:Monospace ; } 
+
+ .click{font-size :34px;
+  color: rgb(255, 255, 255);
+ font-style: Monospace;
+font-size:bold;
+}
+.waitingForConnection3{font-size :34px;}
+img {  
+  max-width:550px;  
+  height: 75px;  
+  }  
+
+button.d-flex{text-align: center;
+  
+ 
+ display:inline-block;
+
+}
+ button.btn {font-size :25px;
+
+color: black;
+
+}
+
+ button.btn:hover {background-color: rgba(2, 5, 5, 0.637);
+   transform:translateY(16px);
+   
+}
+  h5{font-size :21px;
+    text-align: center;
+    font-weight: bold 
+}
+h1{font-size :50px;
+  color: black;
+  margin: center;}
+
+h1.display-5{
+  font-size :160px;
+  color: black;
+  margin: center;
+}
+.waitingForConnection {
+  animation: motion 7s cubic-bezier(.5, 0, 1, 1) infinite alternate; 
+  min-height: auto;
+  max-width: 1400px;
+  margin: 0 auto;
+  
+}
+@keyframes motion  { to {transform:translateX(50%)} } 
+
+.waitingForConnection2 {
+  animation: motion2 5s cubic-bezier(1, 0, 0, 1) infinite alternate; 
+  min-height: auto;
+  max-width: 1400px; 
+  margin: 0 auto;
+
+}
+@keyframes motion2 { from { transform:translateX(0%) } to { transform:translateX(86%) } 
+ }
+
+.waitingForConnection3 {
+  animation: blinker3 .1s ease-in-out infinite alternate;  
+  min-height: auto;
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
+@keyframes blinker3  {  to { transform:translateX(250px) } 
+
+}
