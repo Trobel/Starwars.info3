@@ -230,12 +230,12 @@ data1.forEach(element=> {
               <div> <ul class="list-group mb-1">
                  <li href="#" class="list-group-item list-group-item-action "><h5><b> Specie Type:</b>${element.result.properties.name}</h5></li>
                  <li href="#" class="list-group-item list-group-item-action "><b>Specie Classification :</b> ${element.result.properties.classification}</li>
-                 <li href="#" class="list-group-item list-group-item-action "><b>Designation :</b> ${element.result.properties.designationt}</li>   
+                 <li href="#" class="list-group-item list-group-item-action "><b>Designation :</b> ${element.result.properties.designation}</li>   
                     <li href="#" class="list-group-item list-group-item-action "><b>Average Height:</b> ${element.result.properties.average_height}</li>
                     <li href="#" class="list-group-item list-group-item-action "><b>Language :</b> ${element.result.properties.language}</li>
-                    <li href="#" class="list-group-item list-group-item-action "><b>Hair: </b>${element.result.properties.hair_color}</li>
-                    <li href="#" class="list-group-item list-group-item-action "><b>Skin:</b> ${element.result.properties.skin_color}</li>
-                    <li href="#" class="list-group-item list-group-item-action "><b>Eye:</b> ${element.result.properties.eye_color}</li>
+                    <li href="#" class="list-group-item list-group-item-action "><b>Hair: </b>${element.result.properties.hair_colors}</li>
+                    <li href="#" class="list-group-item list-group-item-action "><b>Skin:</b> ${element.result.properties.skin_colors}</li>
+                    <li href="#" class="list-group-item list-group-item-action "><b>Eye:</b> ${element.result.properties.eye_colors}</li>
                     <li href="#" class="list-group-item list-group-item-action "><b>Average Life Span:</b> ${element.result.properties.average_lifespan}</li>
                    
                     <li href="#" class="list-group-item list-group-item-action "><b> When Info was creacted:</b> ${element.result.properties.created}</li>

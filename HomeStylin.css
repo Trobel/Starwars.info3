@@ -55,7 +55,7 @@ button.btn{
 }
 
 .note1:hover {background-color: rgba(1, 14, 13, 0.075);
-    transform:translateY(-16px);
+    transform:translateX(-16px);
 }
 .note:hover {background-color: rgba(1, 14, 13, 0.075);
     transform:translateX(16px);
